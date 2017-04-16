@@ -9,7 +9,7 @@
       </div>
     </block>
 
-    <block class="bb-7">
+    <block>
       <div slot="main" class="pr-5 pb-5">
         <div class="flex mln-1">
           <div class="demo-block h-7 flex-grow mx-1"></div>

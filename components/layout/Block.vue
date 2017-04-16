@@ -1,7 +1,7 @@
 <template>
 
   <div class="flex items-stretch">
-    <div class="col-7">
+    <div class="col-7 px-5">
       <div class="py-1">
         <slot name="main"></slot>
       </div>
