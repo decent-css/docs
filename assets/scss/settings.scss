@@ -12,15 +12,13 @@ $default-border-color:  lighten(#000, 24%);
 $default-border-radius: 2px;
 $thick-border-weight:   6px;
 
-$color-primary:    hsl(27, 100, 53)  // Default
-                   hsl(27, 100, 63)  // Alt
-                   hsl(27, 100, 73); // Alt 2
+$color-primary:    hsl(27, 100, 53) hsl(27, 100, 63) hsl(27, 100, 73);
 $color-secondary:  #34495e lighten(#34495e, 10%) lighten(#34495e, 20%);
 $color-error:      #e74c3c lighten(#e74c3c, 10%) lighten(#e74c3c, 20%);
 $color-warning:    #f39c12 lighten(#f39c12, 10%) lighten(#f39c12, 20%);
 $color-success:    #27ae60 lighten(#27ae60, 10%) lighten(#27ae60, 20%);
 
-$greys:            #1f232b lighten(#1f232b, 5%) lighten(#1f232b, 15%) lighten(#1f232b, 25%) lighten(#1f232b, 45%) lighten(#1f232b, 60%) lighten(#1f232b, 78%) lighten(#1f232b, 83%);
+$greys:            #1f232b lighten(#1f232b, 5%) lighten(#1f232b, 15%) lighten(#1f232b, 25%) lighten(#1f232b, 45%) lighten(#1f232b, 60%) lighten(#1f232b, 80%) lighten(#1f232b, 100%);
 
-$length-increments:   0.8 1.6 2.2 2.6 4.2 6.8 11 18 29 46 75;
-$spacing-increments:  0.8 1.6 2.2 2.6 4.2 6.8 11 18 29 46 75;
+$length-increments:   0.6 1.6 2.6 4.2 6.8 8 11 18 29 40 75;
+$spacing-increments:  0.6 1.6 2.6 4.2 6.8 8 11 18 29 40 75;
