@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center">
     <div class="col-6 flex items-center">
-      <div class="h-4 wp-25 rounded mr-1" :class="[colorBgClass]"></div>
+      <div class="h-4 wp-30 rounded mr-1" :class="[colorBgClass]"></div>
       <p><code class="code">.{{ colorBgClass }}</code></p>
     </div>
     <div class="col-6 flex items-center ">
@@ -21,7 +21,7 @@ export default {
     },
     greyscale: {
       default: null,
-      type: Boolean
+      type: String
     }
   },
 

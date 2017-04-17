@@ -3,12 +3,9 @@
 // Todo: use an alias for this.
 @import '../../node_modules/decent-scss/modules/all';
 
-* {
-  box-sizing: border-box;
-}
-
 
 .code {
+  font-size: 0.75rem;
   background: #f2f3f5;
   padding: 0.55rem 0.55rem 0.4rem 0.4rem;
   border-radius: 1px;
