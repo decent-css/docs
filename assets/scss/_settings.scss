@@ -5,7 +5,7 @@ $container-width: 80rem;
 
 $typesets: (
   default: (
-    font-family: ('Simplon Norm', Arial, sans-serif),
+    font-family: ('simplon-norm', Arial, sans-serif),
     font-weight: 400,
     line-height-heading: 1.2,
     line-height-body: 1.6,
@@ -13,7 +13,7 @@ $typesets: (
     letter-spacing: 0
   ),
   display: (
-    font-family: ('Simplon Norm', Arial, sans-serif),
+    font-family: ('simplon-norm', Arial, sans-serif),
     font-weight: 400,
     line-height: 1.2,
     text-transform: uppercase,
