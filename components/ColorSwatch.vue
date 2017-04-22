@@ -1,12 +1,16 @@
 <template>
-  <div class="flex items-center">
-    <div class="col-6 flex items-center">
-      <div class="h-4 wp-25 rounded mr-1" :class="[colorBgClass]"></div>
-      <p><code class="code">.{{ colorBgClass }}</code></p>
+
+  <div>
+    <div class="b mb-2">
+      <div class="wp-100 p-5" :class="[colorBgClass]"></div>
+      <div class="cbgg-white p-1"><code class="tn-1">.{{ colorBgClass }}</code></div>
     </div>
-    <div class="col-6 flex items-center ">
-      <div class="t-5 mr-1" :class="[colorTextClass]">Aa</div>
-      <p><code class="code">.{{ colorTextClass }}</code></p>
+
+    <div class="b">
+      <div class="flex pt-2 pb-1 px-3 wp-100 cbgg-white bb">
+        <span class="t-4 tw-semibold" :class="[colorTextClass]">Aa</span>
+      </div>
+      <div class="cbgg-white p-1"><code class="tn-1">.{{ colorTextClass }}</code></div>
     </div>
   </div>
 </template>
@@ -21,7 +25,7 @@ export default {
     },
     greyscale: {
       default: null,
-      type: Boolean
+      type: String
     }
   },
 

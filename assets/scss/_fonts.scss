@@ -1,0 +1,23 @@
+$s3-bucket: 'https://s3-us-west-2.amazonaws.com/chrsgrffth/fonts/';
+
+@font-face {
+    font-family: 'simplon-norm';
+    src: url($s3-bucket + 'simplonnorm-medium-webfont.eot');
+    src: url($s3-bucket + 'simplonnorm-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url($s3-bucket + 'simplonnorm-medium-webfont.woff2') format('woff2'),
+         url($s3-bucket + 'simplonnorm-medium-webfont.woff') format('woff'),
+         url($s3-bucket + 'simplonnorm-medium-webfont.svg#simplon_normmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'simplon-norm';
+    src: url($s3-bucket + 'simplonnorm-regular-webfont.eot');
+    src: url($s3-bucket + 'simplonnorm-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($s3-bucket + 'simplonnorm-regular-webfont.woff2') format('woff2'),
+         url($s3-bucket + 'simplonnorm-regular-webfont.woff') format('woff'),
+         url($s3-bucket + 'simplonnorm-regular-webfont.svg#simplon_normregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
