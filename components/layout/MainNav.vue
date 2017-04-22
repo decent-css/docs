@@ -1,13 +1,11 @@
 <template>
   <nav>
-    <div class="mb-6">
-      <nuxt-link to="/" class="block h-4 mb-2">
-        <img src="~assets/images/decent-logo.svg" class="hp-100" />
-      </nuxt-link>
-      <p class="tn-3 cg-3">1.0.2</p>
+    <div>
+      <!-- <p class="tn-3 cg-3">1.0.2</p> -->
         <!-- <p class="tn-2 cg-4 uppercase tracked">A Functional CSS Library</p> -->
     </div>
 
+<!--
     <div class="mb-4">
       <p class="tn-3 display mb-2">Essentials</p>
       <a href="/" class="d-block cg-black py-1">Introduction</a>
@@ -31,5 +29,6 @@
       <p class="tn-3 display mb-2">Resources</p>
       <a href="#" class="d-block cg-black py-1">Examples</a>
     </div>
+   -->
   </nav>
 </template>

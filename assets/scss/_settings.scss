@@ -1,7 +1,7 @@
 $rem-base: 14px;
 $ratio: 1.175;
 
-$container-width: 80rem;
+$container-width: 90rem;
 
 $typesets: (
   default: (
@@ -22,10 +22,46 @@ $typesets: (
   monospace: (
     font-family: ('Courier New', Courier, monospace),
     font-weight: 400,
-    line-height: 1.2,
+    line-height: 1.7,
     text-transform: none,
     letter-spacing: 0
   )
+);
+
+$colorsets: (
+  'primary': (
+    'default':  hsl(240, 90, 50),
+    'alt':      hsl(240, 90, 40),
+    'alt-2':    hsl(240, 90, 30),
+    'alt-3':    hsl(240, 90, 20)
+  ),
+  'secondary': (
+    'default':  hsl(27, 100, 53),
+    'alt':      hsl(27, 100, 43)
+  ),
+  'success': (
+    'default':  hsl(122, 90, 50),
+    'alt':      hsl(122, 90, 40),
+    'alt-2':    hsl(122, 90, 30)
+  ),
+  'error': (
+    'default':  hsl(0, 90, 50),
+    'alt':      hsl(0, 90, 40),
+    'alt-2':    hsl(0, 90, 30)
+  )
+);
+
+$greyscale: (
+  'black': hsl(240, 0, 0),
+  '1':     hsl(240, 10, 10),
+  '2':     hsl(240, 8, 24),
+  '3':     hsl(240, 6, 40),
+  '4':     hsl(240, 5, 50),
+  '5':     hsl(240, 4, 70),
+  '6':     hsl(240, 3, 80),
+  '7':     hsl(240, 2, 94),
+  '8':     hsl(240, 1, 96),
+  'white': hsl(240, 0, 100)
 );
 
 $modular-scale: (
@@ -35,14 +71,20 @@ $modular-scale: (
   '3': 1.5rem,
   '4': 2.4rem,
   '5': 3rem,
-  '6': 5rem,
-  '7': 9rem,
-  '8': 16rem,
-  '9': 28rem,
-  '10': 45rem
+  '6': 4rem,
+  '7': 5rem,
+  '8': 7rem,
+  '9': 9rem,
+  '10': 16rem,
+  '11': 24rem,
+  '12': 36rem
 );
 
-$greys:  #1f232b lighten(#1f232b, 5%) lighten(#1f232b, 15%) lighten(#1f232b, 25%) lighten(#1f232b, 45%) lighten(#1f232b, 60%) lighten(#1f232b, 78%) lighten(#1f232b, 83%);
+$shadows: (
+  'default': 0 4px 30px -8px rgba(0, 0, 10, 0.2)
+);
 
 
-$default-border-radius: 2px;
+$border-radii: (
+  'default': 2px
+)

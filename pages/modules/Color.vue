@@ -1,94 +1,102 @@
 <template>
 
-  <article>
-    <block>
-      <div slot="main" class="pt-8 pb-4 ">
-        <h1 class="t-5 tw-semibold mb-2">Color</h1>
-        <p class="cg-3 mb-1">Decent doesn't make any assumptions about what colors you may need. With generic names such as <span>primary</span> and <span>secondary</span>, adjustments can be made globally without the need for an extensive search and replace effort.</p>
+  <article class="container py-9 px-8">
 
-        <p class="cg-3">Each color namespace is comprised of a list, so each color can have an unlimited number of alternatives. The greyscale also works in this way, allowing for an unlimited number of grey shades – of course, we recommend using a reasonable number of shades for ease of use and consistency.</p>
+    <section class="maxw-12 mb-6">
+      <h1 class="t-6 tw-semibold mt-5 mb-3">Color</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
+    </section>
+
+    <section>
+      <div v-for="colorGroup in colorGroups" class="flex mln-2 mb-5">
+        <div v-for="color in colorGroup" class="col-3 pl-2">
+          <color-swatch :color="color" />
+        </div>
       </div>
-    </block>
+    </section>
 
-    <block>
-      <div slot="main" class="pb-5">
-        <color-swatch color="primary" />
-        <color-swatch color="primary-alt" />
-        <color-swatch color="primary-alt-2" />
-        <color-swatch color="primary-alt-3" />
+    <aside class="d-none absolute hp-100 pt-9 w-12 top-0 right-0 z-1">
+      <div class="fixed zn-1 wp-100 hp-100 cbgg-7"></div>
+      <div class="flex wp-100 hp-100">
+        <div class="flex pt-11 wp-100 p-4">
+          <pre class="tn-1 mb-2"><code>$colorsets: (
+  'primary': (
+    'default': hsl(240, 90, 50),
+    'alt':      hsl(240, 90, 40),
+    'alt-2':    hsl(240, 90, 30)
+  ),
+  'secondary': (
+    'default':  hsl(27, 100, 53),
+    'alt':      hsl(27, 100, 43)
+  ),
+  'success': (
+    'default':  hsl(122, 90, 50),
+    'alt':      hsl(122, 90, 40),
+    'alt-2':    hsl(122, 90, 30)
+  ),
+  'error': (
+    'default':  hsl(0, 90, 50),
+    'alt':      hsl(0, 90, 40),
+    'alt-2':    hsl(0, 90, 30)
+  )
+) !default;
 
-        <color-swatch color="secondary" />
-        <color-swatch color="secondary-alt" />
-        <color-swatch color="secondary-alt-2" />
-
-        <color-swatch color="success" />
-        <color-swatch color="success-alt" />
-        <color-swatch color="success-alt-2" />
-
-        <color-swatch color="warning" />
-        <color-swatch color="warning-alt" />
-        <color-swatch color="warning-alt-2" />
-
-        <color-swatch color="error" />
-        <color-swatch color="error-alt" />
-        <color-swatch color="error-alt-2" />
-
-        <color-swatch greyscale="black" />
-        <color-swatch greyscale="1" />
-        <color-swatch greyscale="2" />
-        <color-swatch greyscale="3" />
-        <color-swatch greyscale="4" />
-        <color-swatch greyscale="5" />
-        <color-swatch greyscale="6" />
-        <color-swatch greyscale="7" />
-        <color-swatch greyscale="8" />
-        <color-swatch greyscale="white" />
+$greyscale: (
+  'black': hsl(240, 0, 0),
+  '1':     hsl(240, 10, 10),
+  '2':     hsl(240, 8, 24),
+  '3':     hsl(240, 6, 40),
+  '4':     hsl(240, 5, 50),
+  '5':     hsl(240, 4, 70),
+  '6':     hsl(240, 3, 80),
+  '7':     hsl(240, 2, 92),
+  '8':     hsl(240, 1, 96),
+  'white': hsl(240, 0, 100)
+);
+<div class="h-5"></div>
+</code></pre>
+        </div>
       </div>
-      <div slot="code">
-        <pre><code>$color-primary:     hsl(27, 100, 53)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43);
-
-$color-secondary:   hsl(27, 100, 53)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43);
-
-$color-success:     hsl(27, 100, 53)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43);
-
-$color-warning:     hsl(27, 100, 53)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43);
-
-$color-error:       hsl(27, 100, 53)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43);
-
-$greyscale:         hsl(27, 100, 53)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43)
-                    hsl(27, 100, 43);</code></pre>
-
-                </code></pre>
-      </div>
-    </block>
+    </aside>
   </article>
+
 </template>
 
 <script>
-import Block from '~components/layout/Block'
 import ColorSwatch from '~components/ColorSwatch'
 
 export default {
   components: {
-    Block,
     ColorSwatch,
+  },
+
+  data () {
+    return {
+      colorGroups: [
+        [
+          'primary',
+          'primary-alt',
+          'primary-alt-2',
+          'primary-alt-3'
+        ],
+        [
+          'secondary',
+          'secondary-alt',
+          'secondary-alt-2'
+        ],
+        [
+          'success',
+          'success-alt',
+          'success-alt-2'
+        ],
+        [
+          'error',
+          'error-alt',
+          'error-alt-2'
+        ]
+      ]
+    }
   }
+
 }
 </script>

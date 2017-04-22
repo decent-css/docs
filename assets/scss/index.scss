@@ -4,6 +4,19 @@
 // Todo: use an alias for this.
 @import '../../node_modules/decent-scss/modules/all';
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__nuxt {
+  height: 100%;
+}
+
+pre {
+  line-height: 1.5;
+}
 
 .code {
   font-size: 0.75rem;
