@@ -47,6 +47,12 @@
         </div>
       </div>
     </section>
+
+    <section class="bt pt-6">
+      <h2 class="t-3 tw-semibold mb-4">Configuration</h2>
+      <pre class="tn-1"><code>$container-width: 90rem;
+$columns: 12;</code></pre>
+    </section>
   </article>
 </template>
 

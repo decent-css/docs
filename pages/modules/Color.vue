@@ -11,6 +11,32 @@
         </div>
       </div>
     </section>
+
+    <section class="bt pt-6">
+      <h2 class="t-3 tw-semibold mb-4">Configuration</h2>
+      <pre class="tn-1"><code>$colorsets: (
+  'primary': (
+    'default':  hsl(240, 90, 50),
+    'alt':      hsl(240, 90, 40),
+    'alt-2':    hsl(240, 90, 30),
+    'alt-3':    hsl(240, 90, 20)
+  ),
+  'secondary': (
+    'default':  hsl(27, 100, 53),
+    'alt':      hsl(27, 100, 43)
+  ),
+  'success': (
+    'default':  hsl(122, 90, 50),
+    'alt':      hsl(122, 90, 40),
+    'alt-2':    hsl(122, 90, 30)
+  ),
+  'error': (
+    'default':  hsl(0, 90, 50),
+    'alt':      hsl(0, 90, 40),
+    'alt-2':    hsl(0, 90, 30)
+  )
+);</code></pre>
+    </section>
   </article>
 </template>
 
