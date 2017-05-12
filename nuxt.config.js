@@ -13,6 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Varela&family=Source+Code+Pro' }
     ],
+    script: [
+      { src: 'https://buttons.github.io/buttons.js', async: true, defer: true }
+    ],
     bodyAttrs: {
       class: 'cbgg-8'
     }

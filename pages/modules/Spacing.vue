@@ -5,83 +5,36 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
     </section>
 
-    <section class="mb-4">
-      <div class="b p-2 o-auto">
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-0"></div>
+    <section class="mb-4 mxn-2">
+      <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
+        <div class="h-3 w-5 mr-2 flex items-center justify-center">
+          <code class="tn-2">.p-{{ step }}</code>
         </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-1"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-2"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-3"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-5"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-6"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-7"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-8"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-9"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-10"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-11"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-3 h-3 cbg-primary rounded ml-12"></div>
-        </div>
+        <div :class="'p-' + step" class="cbg-primary rounded h-3"></div>
       </div>
     </section>
 
-    <section>
-      <div class="b p-2 o-auto">
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-1"></div>
+    <section class="mxn-2">
+      <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
+        <div class="h-3 w-5 mr-2 flex items-center justify-center">
+          <code class="tn-2">.m-{{ step }}</code>
         </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-2"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-3"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-5"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-6"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-7"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-8"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-9"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-10"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-11"></div>
-        </div>
-        <div class="cbgg-7 mb-1">
-          <div class="w-0 h-3 cbg-primary rounded pl-12"></div>
-        </div>
+        <div :class="'m-' + step" class="cbg-primary rounded h-3 w-3"></div>
       </div>
     </section>
   </article>
 </template>
+
+<script>
+export default {
+  computed: {
+    scale () {
+      let array = []
+      for (var i = 0; i <= 8; i++) {
+        array.push(i)
+      }
+      return array
+    }
+  }
+}
+</script>

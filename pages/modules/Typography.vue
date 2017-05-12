@@ -6,7 +6,7 @@
     </section>
 
     <section>
-      <div class="b p-2">
+      <div class="b p-2 mxn-2 mb-4">
         <p class="px-2 t-10">Heading</p>
         <p class="px-2 t-9">Heading</p>
         <p class="px-2 t-8">Heading</p>
@@ -23,6 +23,35 @@
         <p class="px-2 tn-1">Heading</p>
         <p class="px-2 tn-2">Heading</p>
         <p class="px-2 tn-3">Heading</p>
+      </div>
+
+      <div class="b p-2 mxn-2 mb-4">
+        <p class="tw-bold">Underline</p>
+        <p class="tw-semibold">Underline</p>
+        <p class="tw-regular">Underline</p>
+      </div>
+
+      <div class="b p-2 mxn-2 mb-4">
+        <div class="cbgg-7 px-2 mb-1 ta-left">
+          <p>Left</p>
+        </div>
+        <div class="cbgg-7 px-2 mb-1 ta-center">
+          <p>Center</p>
+        </div>
+        <div class="cbgg-7 px-2 mb-1 ta-right">
+          <p>Right</p>
+        </div>
+      </div>
+
+      <div class="b p-2 mxn-2">
+        <p class="underline">Underline</p>
+        <p class="line-through">Underline</p>
+        <p class="underline">Underline</p>
+        <p class="italic">Underline</p>
+        <p class="uppercase">Underline</p>
+        <p class="capitalize">Underline</p>
+        <p class="lowercase">Underline</p>
+        <p class="nowrap">Underline</p>
       </div>
     </section>
 
