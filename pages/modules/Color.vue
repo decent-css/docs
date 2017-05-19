@@ -6,7 +6,7 @@
     </section>
     <section>
       <div v-for="colorGroup in colorGroups" class="flex flex-wrap mln-2 mb-5">
-        <div v-for="color in colorGroup" class="col-6 md-col-3 pl-2">
+        <div v-for="color in colorGroup" class="w-10 md-col-3 pl-2">
           <color-swatch :color="color" class="mb-2"/>
         </div>
       </div>

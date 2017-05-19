@@ -6,54 +6,71 @@
     </section>
 
     <section>
-      <div class="b p-2 mxn-2 mb-4">
-        <p class="px-2 t-10">Heading</p>
-        <p class="px-2 t-9">Heading</p>
-        <p class="px-2 t-8">Heading</p>
-        <p class="px-2 t-7">Heading</p>
-        <p class="px-2 t-6">Heading</p>
-        <p class="px-2 t-5">Heading</p>
-        <p class="px-2 t-4">Heading</p>
-        <p class="px-2 t-3">Heading</p>
-        <p class="px-2 t-2">Heading</p>
-        <p class="px-2 t-1">Heading</p>
-        <div class="my-1 py-1 px-2 cbgg-7 rounded">
-          <p class="t-0">Heading</p>
+      <h2 class="t-3 tw-semibold mb-3">Size</h2>
+      <div class="mxn-2 mb-4">
+        <div v-for="size in fontSizes">
+          <div class="cbgg-7 b p-2 mb-1">
+            <p v-if="size >= 0" :class="'t-' + size">Heading</p>
+            <p v-else :class="'tn' + size">Heading</p>
+          </div>
         </div>
-        <p class="px-2 tn-1">Heading</p>
-        <p class="px-2 tn-2">Heading</p>
-        <p class="px-2 tn-3">Heading</p>
       </div>
 
-      <div class="b p-2 mxn-2 mb-4">
-        <p class="tw-bold">Underline</p>
-        <p class="tw-semibold">Underline</p>
-        <p class="tw-regular">Underline</p>
+      <h2 class="t-3 tw-semibold mb-3">Weight</h2>
+      <div class="cbgg-7 b p-2 mxn-2 mb-4">
+        <p class="tw-bold">Bold</p>
+        <p class="tw-semibold">Semibold</p>
+        <p class="tw-regular">Regular</p>
       </div>
 
-      <div class="b p-2 mxn-2 mb-4">
-        <div class="cbgg-7 px-2 mb-1 ta-left">
+      <h2 class="t-3 tw-semibold mb-3">Alignment</h2>
+      <div class="cbgg-7 b p-2 mxn-2 mb-4">
+        <div class="cbgg-white b py-1 px-2 mb-1 ta-left">
           <p>Left</p>
         </div>
-        <div class="cbgg-7 px-2 mb-1 ta-center">
+        <div class="cbgg-white b py-1 px-2 mb-1 ta-center">
           <p>Center</p>
         </div>
-        <div class="cbgg-7 px-2 mb-1 ta-right">
+        <div class="cbgg-white b py-1 px-2 mb-1 ta-right">
           <p>Right</p>
         </div>
       </div>
 
-      <div class="b p-2 mxn-2">
-        <p class="underline">Underline</p>
-        <p class="line-through">Underline</p>
-        <p class="underline">Underline</p>
-        <p class="italic">Underline</p>
-        <p class="uppercase">Underline</p>
-        <p class="capitalize">Underline</p>
-        <p class="lowercase">Underline</p>
-        <p class="nowrap">Underline</p>
+      <h2 class="t-3 tw-semibold mb-3">Style</h2>
+      <div class="mxn-2">
+        <div class="flex mln-1">
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="underline">Underline</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="line-through">Line-through</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="italic">Italic</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="uppercase">Uppercase</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="capitalize">Capitalize</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="lowercase">Lowercase</p>
+          </div>
+        </div>
+        <!-- <p class="nowrap">Nowrap</p> -->
       </div>
     </section>
 
   </article>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      fontSizes: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2, -3]
+    }
+  }
+}
+</script>

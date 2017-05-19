@@ -1,16 +1,15 @@
 <template>
-
   <div>
-    <div class="b mb-2">
-      <div class="wp-100 p-5" :class="[colorBgClass]"></div>
-      <div class="cbgg-white p-1"><code class="tn-1">.{{ colorBgClass }}</code></div>
+    <div class="p-2 cbgg-7 rounded b mb-2">
+      <div class="wp-100 p-5 rounded" :class="[colorBgClass]"></div>
+      <div class="pt-2"><code class="tn-1">.{{ colorBgClass }}</code></div>
     </div>
 
-    <div class="b">
-      <div class="flex pt-2 pb-1 px-3 wp-100 cbgg-white bb">
+    <div class="p-2 cbgg-7 b">
+      <div class="flex pt-2 wp-100 bb">
         <span class="t-4 tw-semibold" :class="[colorTextClass]">Aa</span>
       </div>
-      <div class="cbgg-white p-1"><code class="tn-1">.{{ colorTextClass }}</code></div>
+      <div class="pt-1"><code class="tn-1">.{{ colorTextClass }}</code></div>
     </div>
   </div>
 </template>

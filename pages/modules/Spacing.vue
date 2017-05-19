@@ -5,6 +5,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
     </section>
 
+    <h2 class="t-3 tw-semibold mb-3">Padding</h2>
     <section class="mb-4 mxn-2">
       <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
         <div class="h-3 w-5 mr-2 flex items-center justify-center">
@@ -14,6 +15,7 @@
       </div>
     </section>
 
+    <h2 class="t-3 tw-semibold mb-3">Margin</h2>
     <section class="mxn-2">
       <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
         <div class="h-3 w-5 mr-2 flex items-center justify-center">
