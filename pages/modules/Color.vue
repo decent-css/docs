@@ -35,7 +35,8 @@
     'alt':      hsl(0, 90, 40),
     'alt-2':    hsl(0, 90, 30)
   )
-);</code></pre>
+);
+</code></pre>
     </section>
   </article>
 </template>

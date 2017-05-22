@@ -17,27 +17,36 @@
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Weight</h2>
-      <div class="cbgg-7 b p-2 mxn-2 mb-4">
-        <p class="tw-bold">Bold</p>
-        <p class="tw-semibold">Semibold</p>
-        <p class="tw-regular">Regular</p>
+      <div class="mxn-2 mb-4">
+        <div class="flex mln-1">
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="tw-bold">Bold</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="tw-semibold">Semibold</p>
+          </div>
+          <div class="p-2 cbgg-7 b mx-1">
+            <p class="tw-regular">Regular</p>
+          </div>
+        </div>
       </div>
+
 
       <h2 class="t-3 tw-semibold mb-3">Alignment</h2>
       <div class="cbgg-7 b p-2 mxn-2 mb-4">
-        <div class="cbgg-white b py-1 px-2 mb-1 ta-left">
+        <div class="cbgg-white b p-2 mb-1 ta-left">
           <p>Left</p>
         </div>
-        <div class="cbgg-white b py-1 px-2 mb-1 ta-center">
+        <div class="cbgg-white b p-2 mb-1 ta-center">
           <p>Center</p>
         </div>
-        <div class="cbgg-white b py-1 px-2 mb-1 ta-right">
+        <div class="cbgg-white b p-2 mb-1 ta-right">
           <p>Right</p>
         </div>
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Style</h2>
-      <div class="mxn-2">
+      <div class="mxn-2 mb-6">
         <div class="flex mln-1">
           <div class="p-2 cbgg-7 b mx-1">
             <p class="underline">Underline</p>
@@ -61,6 +70,44 @@
         <!-- <p class="nowrap">Nowrap</p> -->
       </div>
     </section>
+
+    <section class="bt pt-6">
+      <h2 class="t-3 tw-semibold mb-4">Configuration</h2>
+      <pre class="tn-1"><code>$rem-base:  16px;
+
+$ratio: 1.5;
+
+$typesets: (
+  default: (
+    font-family: ('Proxima Nova', Arial, sans-serif),
+    font-weight: 400,
+    line-height-body: 1.6,
+    line-height-heading: 1.2,
+    text-transform: none,
+    letter-spacing: 0
+  ),
+  display: (
+    font-family: ('Cormorant Garamond', Georgia, serif),
+    font-weight: 400,
+    line-height: 1.2,
+    text-transform: uppercase,
+    letter-spacing: 0.1em
+  ),
+  monospace: (
+    font-family: (Courier, monospace),
+    font-weight: 400,
+    line-height: 1.2,
+    text-transform: none,
+    letter-spacing: 0
+  )
+);
+
+$font-weights: (
+  'regular': 400,
+  'semibold': 500,
+  'bold': 700
+);</code></pre>
+  </section>
 
   </article>
 </template>

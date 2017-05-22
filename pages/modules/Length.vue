@@ -6,6 +6,32 @@
     </section>
     <section>
       <h2 class="t-3 tw-semibold mb-3">Fixed Widths</h2>
+
+      <div class="table b wp-100 mxn-2 mb-4">
+        <div class="table-row">
+          <div class="table-cell p-2">
+            <code>w</code>
+          </div>
+          <div class="table-cell p-2">
+            <code>0</code> - <code>12</code>
+          </div>
+          <div class="table-cell p-2">
+            <code>Width</code>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell p-2">
+            <code>h</code>
+          </div>
+          <div class="table-cell p-2">
+            <code>0</code> - <code>12</code>
+          </div>
+          <div class="table-cell p-2">
+            <code>Height</code>
+          </div>
+        </div>
+      </div>
+
       <div class="o-auto mxn-2 mb-4">
         <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
           <div class="h-3 w-6 pl-1 mr-2 flex items-center justify-start">

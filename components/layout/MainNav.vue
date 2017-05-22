@@ -12,12 +12,12 @@
           <nuxt-link to="/modules/flexbox" class="p-2 c-primary-alt-2">Flexbox</nuxt-link>
           <nuxt-link to="/modules/grid" class="p-2 c-primary-alt-2">Grid</nuxt-link>
           <nuxt-link to="/modules/overlay" class="p-2 c-primary-alt-2">Overlay</nuxt-link>
-          <nuxt-link to="/modules/interaction" class="p-2 c-primary-alt-2">Interaction</nuxt-link>
+          <!-- <nuxt-link to="/modules/interaction" class="p-2 c-primary-alt-2">Interaction</nuxt-link> -->
           <nuxt-link to="/modules/length" class="p-2 c-primary-alt-2">Length</nuxt-link>
           <nuxt-link to="/modules/position" class="p-2 c-primary-alt-2">Position</nuxt-link>
           <nuxt-link to="/modules/spacing" class="p-2 c-primary-alt-2">Spacing</nuxt-link>
           <nuxt-link to="/modules/style" class="p-2 c-primary-alt-2">Style</nuxt-link>
-          <nuxt-link to="/modules/table" class="p-2 c-primary-alt-2">Table</nuxt-link>
+          <!-- <nuxt-link to="/modules/table" class="p-2 c-primary-alt-2">Table</nuxt-link> -->
           <nuxt-link to="/modules/typography" class="p-2 c-primary-alt-2">Typography</nuxt-link>
         </nav>
       </div>
