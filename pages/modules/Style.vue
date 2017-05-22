@@ -20,5 +20,18 @@
         <div class="w-5 h-5 ml-2 cbgg-3 rounded-more"></div>
       </div>
     </section>
+
+
+    <section class="bt pt-6 mt-6">
+      <h2 class="t-3 tw-semibold mb-4">Configuration</h2>
+      <pre class="tn-1"><code>$border-radii: (
+  'default': 2px
+);
+
+$shadows: (
+  'default': 0 1px 8px rgba(0, 0, 0, 0.1),
+  'diffused':  0 2px 16px rgba(0, 0, 0, 0.1)
+);</code></pre>
+    </section>
   </article>
 </template>
