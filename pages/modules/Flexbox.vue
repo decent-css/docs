@@ -5,9 +5,9 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
     </section>
 
-    <section>
+    <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Container</h2>
-      <div class="mxn-2 ta-center mb-4">
+      <div class="mxn-2 ta-center">
         <div class="cbgg-7 b p-2">
           <pre class="mb-2 tn-1"><code>.flex</code></pre>
           <div class="flex cg-white">
@@ -17,7 +17,9 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Direction</h2>
       <div class="mxn-2 ta-center flex mb-4">
         <div class="col-6 mr-1">
@@ -42,7 +44,9 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Wrap</h2>
       <div class="mxn-2 ta-center flex">
         <div class="col-6 mr-1">
@@ -66,7 +70,9 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Align Items</h2>
       <div class="mxn-2 ta-center flex flex-wrap">
         <div class="col-4 p-1">
@@ -120,7 +126,9 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Justify Content</h2>
       <div class="mxn-2 ta-center flex flex-wrap">
         <div class="col-4 p-1">
@@ -174,9 +182,11 @@
           </div>
         </div>
       </div>
+    </section>
 
+    <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Order</h2>
-      <div class="mxn-2 ta-center mb-4">
+      <div class="mxn-2 ta-center">
 
         <div class="flex">
           <div class="flex-grow flex-order-4 cbgg-7 b p-1 mx-1">

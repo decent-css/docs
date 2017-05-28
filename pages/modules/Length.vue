@@ -101,14 +101,6 @@
         </div>
       </div>
 
-      <div class="o-auto mxn-2 mb-4">
-        <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
-          <div class="h-3 w-6 pl-1 mr-2 flex items-center justify-start">
-            <code class="tn-2">.w-{{ step }}</code>
-          </div>
-          <div :class="'w-' + step" class="cbg-primary rounded h-3"></div>
-        </div>
-      </div>
       <div class="mxn-2">
         <div v-for="step in percentageScale" class="cbgg-7 p-2 flex items-center mb-2">
           <div class="h-3 w-6 pl-1 mr-2 flex items-center justify-start">

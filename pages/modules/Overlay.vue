@@ -5,8 +5,9 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
     </section>
     <section class="mb-6">
-      <div class="b p-2 cg-white">
-        <div class="cbgg-white h-10 wp-100 relative">
+      <div class="b p-2 cbgg-7 mxn-2">
+        <pre class="mb-2 tn-1 ta-center"><code>.overlay</code></pre>
+        <div class="cbgg-white cg-white h-10 wp-100 relative">
           <div class="overlay flex items-end p-4">
             <div>
               <h1 class="cg-white t-4 mb-1">An Overlay</h1>

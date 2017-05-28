@@ -1,3 +1,14 @@
 <template>
-  <div></div>
+  <article>
+    <section class="maxw-12 mb-6">
+      <h1 class="t-6 tw-semibold mt-5 mb-3">Position</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
+    </section>
+
+    <section>
+      <h2 class="t-3 tw-semibold mb-3">Relative, Absolute, Fixed</h2>
+      <h2 class="t-3 tw-semibold mb-3">Coordinates</h2>
+      <h2 class="t-3 tw-semibold mb-3">Translate</h2>
+    </section>
+  </article>
 </template>
