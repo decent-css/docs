@@ -116,7 +116,6 @@ export default {
         'line-through',
         'italic',
         'uppercase',
-        'capitalize',
         'lowercase'
       ]
     }
