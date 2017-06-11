@@ -6,8 +6,8 @@
     </section>
 
     <h2 class="t-3 tw-semibold mb-3">Padding</h2>
-    <section class="mb-4 mxn-2">
-      <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
+    <section class="mb-4 ">
+      <div v-for="step in scale" class="cbgg-8 b p-2 flex items-center mb-2">
         <div class="h-3 w-5 mr-2 flex items-center justify-center">
           <code class="tn-2">.p-{{ step }}</code>
         </div>
@@ -16,8 +16,8 @@
     </section>
 
     <h2 class="t-3 tw-semibold mb-3">Margin</h2>
-    <section class="mxn-2">
-      <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
+    <section class="">
+      <div v-for="step in scale" class="cbgg-8 b p-2 flex items-center mb-2">
         <div class="h-3 w-5 mr-2 flex items-center justify-center">
           <code class="tn-2">.m-{{ step }}</code>
         </div>

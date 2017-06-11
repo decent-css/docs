@@ -17,7 +17,7 @@ module.exports = {
       { src: 'https://buttons.github.io/buttons.js', async: true, defer: true }
     ],
     bodyAttrs: {
-      class: 'cbgg-8'
+      // class: 'cbgg-8'
     }
   },
 

@@ -5,6 +5,14 @@ $container-width: 90rem;
 
 $typesets: (
   default: (
+    font-family: (-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'),
+    font-weight: 400,
+    line-height-heading: 1.2,
+    line-height-body: 1.6,
+    text-transform: none,
+    letter-spacing: 0
+  ),
+  heading: (
     font-family: ('simplon-norm', Arial, sans-serif),
     font-weight: 400,
     line-height-heading: 1.2,

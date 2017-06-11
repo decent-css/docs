@@ -7,33 +7,38 @@
 
     <section>
       <h2 class="t-3 tw-semibold mb-3">Size</h2>
-      <div class="mxn-2 mb-4">
+      <div class="mb-4">
         <div v-for="size in fontSizes">
-          <div class="cbgg-7 b p-2 mb-1">
-            <p v-if="size >= 0" :class="'t-' + size">Heading</p>
-            <p v-else :class="'tn' + size">Heading</p>
+          <div class="flex items-baseline cbgg-8 b p-2 mb-1">
+            <div class="w-7 px-2 mr-2">
+              <code v-if="size >= 0" class="tn-1">.{{ 't-' + size }}</code>
+              <code v-else class="tn-1">.{{ 'tn' + size }}</code>
+            </div>
+            <div>
+              <p v-if="size >= 0" :class="'t-' + size">Heading</p>
+              <p v-else :class="'tn' + size">Heading</p>
+            </div>
           </div>
         </div>
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Weight</h2>
-      <div class="mxn-2 mb-4">
+      <div class="mb-4">
         <div class="flex mln-1">
-          <div class="p-2 cbgg-7 b mx-1">
+          <div class="p-2 cbgg-8 b mx-1">
             <p class="tw-bold">Bold</p>
           </div>
-          <div class="p-2 cbgg-7 b mx-1">
+          <div class="p-2 cbgg-8 b mx-1">
             <p class="tw-semibold">Semibold</p>
           </div>
-          <div class="p-2 cbgg-7 b mx-1">
+          <div class="p-2 cbgg-8 b mx-1">
             <p class="tw-regular">Regular</p>
           </div>
         </div>
       </div>
 
-
       <h2 class="t-3 tw-semibold mb-3">Alignment</h2>
-      <div class="cbgg-7 b p-2 mxn-2 mb-4">
+      <div class="cbgg-8 b p-2 mb-4">
         <div class="cbgg-white b p-2 mb-1 ta-left">
           <p>Left</p>
         </div>
@@ -46,35 +51,18 @@
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Style</h2>
-      <div class="mxn-2 mb-6">
-        <div class="flex mln-1">
-          <div class="p-2 cbgg-7 b mx-1">
-            <p class="underline">Underline</p>
-          </div>
-          <div class="p-2 cbgg-7 b mx-1">
-            <p class="line-through">Line-through</p>
-          </div>
-          <div class="p-2 cbgg-7 b mx-1">
-            <p class="italic">Italic</p>
-          </div>
-          <div class="p-2 cbgg-7 b mx-1">
-            <p class="uppercase">Uppercase</p>
-          </div>
-          <div class="p-2 cbgg-7 b mx-1">
-            <p class="capitalize">Capitalize</p>
-          </div>
-          <div class="p-2 cbgg-7 b mx-1">
-            <p class="lowercase">Lowercase</p>
+      <div class="mb-6">
+        <div class="flex mln-2">
+          <div class="col-3 pl-2" v-for="style in typeStyles">
+            <type-style :name="style" />
           </div>
         </div>
-        <!-- <p class="nowrap">Nowrap</p> -->
       </div>
     </section>
 
     <section class="bt pt-6">
       <h2 class="t-3 tw-semibold mb-4">Configuration</h2>
       <pre class="tn-1"><code>$rem-base:  16px;
-
 $ratio: 1.5;
 
 $typesets: (
@@ -113,10 +101,24 @@ $font-weights: (
 </template>
 
 <script>
+import TypeStyle from '~components/TypeStyle'
+
 export default {
+  components: {
+    TypeStyle
+  },
+
   data () {
     return {
-      fontSizes: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2, -3]
+      fontSizes: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1, -2, -3],
+      typeStyles: [
+        'underline',
+        'line-through',
+        'italic',
+        'uppercase',
+        'capitalize',
+        'lowercase'
+      ]
     }
   }
 }

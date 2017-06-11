@@ -1,19 +1,33 @@
 <template>
   <article>
-    <div class="bb pb-3 mb-5">
+    <section class="bb pb-3 mb-5">
       <div class="col-7 mb-4">
         <h1 class="t-6 tw-semibold pr-6 mb-4">A Flexible, Functional CSS Library for Building Literally Anything</h1>
         <p class="t-1">Designed to be flexible and configurable, Decent can be used for building anything from prototypes to production applications and websites.</p>
       </div>
       <div>
-        <img class="mr-2" src="https://camo.githubusercontent.com/d8acfc5636ad990672b4415868c9304366cafb72/68747470733a2f2f62616467652e667572792e696f2f6a732f646563656e742d736373732e737667" alt="npm version" data-canonical-src="https://badge.fury.io/js/decent-scss.svg" style="max-width:100%;">
-        <a class="mr-2" href="https://camo.githubusercontent.com/afb040c158824da81053af2e15362ab4748ad382/68747470733a2f2f636972636c6563692e636f6d2f67682f646563656e742d6373732f646563656e742e706e673f636972636c652d746f6b656e3d30646363366363343162363462626633626538616266663661653964303038323364636632393535267374796c653d736869656c64" target="_top"><img src="https://camo.githubusercontent.com/afb040c158824da81053af2e15362ab4748ad382/68747470733a2f2f636972636c6563692e636f6d2f67682f646563656e742d6373732f646563656e742e706e673f636972636c652d746f6b656e3d30646363366363343162363462626633626538616266663661653964303038323364636632393535267374796c653d736869656c64" alt="CircleCI Status" data-canonical-src="https://circleci.com/gh/decent-css/decent.png?circle-token=0dcc6cc41b64bbf3be8abff6ae9d00823dcf2955&amp;style=shield" style="max-width:100%;"></a>
+        <a href="https://www.npmjs.com/package/decent-scss">
+          <img class="mr-2" src="https://camo.githubusercontent.com/d8acfc5636ad990672b4415868c9304366cafb72/68747470733a2f2f62616467652e667572792e696f2f6a732f646563656e742d736373732e737667" alt="npm version" data-canonical-src="https://badge.fury.io/js/decent-scss.svg" style="max-width:100%;">
+        </a>
+        <a class="mr-2" href="https://circleci.com/gh/decent-css/decent" target="_top">
+          <img src="https://camo.githubusercontent.com/afb040c158824da81053af2e15362ab4748ad382/68747470733a2f2f636972636c6563692e636f6d2f67682f646563656e742d6373732f646563656e742e706e673f636972636c652d746f6b656e3d30646363366363343162363462626633626538616266663661653964303038323364636632393535267374796c653d736869656c64" alt="CircleCI Status" data-canonical-src="https://circleci.com/gh/decent-css/decent.png?circle-token=0dcc6cc41b64bbf3be8abff6ae9d00823dcf2955&amp;style=shield" style="max-width:100%;">
+        </a>
         <!-- Place this tag where you want the button to render. -->
-        <a class="github-button" href="https://github.com/decent-css/decent" data-show-count="true" aria-label="Star decent-css/decent on GitHub">Star</a>
+        <!-- <a class="github-button" href="https://github.com/decent-css/decent" data-show-count="true" aria-label="Star decent-css/decent on GitHub">Star</a> -->
       </div>
-    </div>
+    </section>
 
-    <div class="flex mln-3">
+    <section class="mb-5">
+      <h2 class="t-3 tw-semibold mb-3">How it Works</h2>
+      <p>Control over classnames, increments, and values.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="t-3 tw-semibold mb-3">Getting Started</h2>
+      <p>Control over classnames, increments, and values.</p>
+    </section>
+
+    <section class="flex mln-3">
       <div class="p-3">
         <p class="t-3 tw-semibold">~16<span class="t-1">kb</span></p>
         <p>Minified and gzipped</p>
@@ -22,7 +36,7 @@
         <p class="t-3 tw-semibold">Configurable</span></p>
         <p>Minified and gzipped</p>
       </div>
-    </div>
+    </section>
 
     <!--
       - Makes designing in the browser possible.

@@ -1,13 +1,18 @@
 <template>
   <article>
-    <section class="maxw-12 mb-6">
-      <h1 class="t-6 tw-semibold mt-5 mb-3">Color</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
-    </section>
+    <page-heading title="Color">
+      Colors are split into two categories – <em>colorsets</em> and <em>greyscale</em>
+    </page-heading>
+
     <section>
       <div v-for="colorGroup in colorGroups" class="flex flex-wrap mln-2 mb-5">
         <div v-for="color in colorGroup" class="w-10 md-col-3 pl-2">
           <color-swatch :color="color" class="mb-2"/>
+        </div>
+      </div>
+      <div class="flex flex-wrap mln-2 mb-5">
+        <div v-for="grey in greyscale" class="w-10 md-col-3 pl-2">
+          <color-swatch :grey="grey" class="mb-2"/>
         </div>
       </div>
     </section>
@@ -36,17 +41,31 @@
     'alt-2':    hsl(0, 90, 30)
   )
 );
-</code></pre>
+
+$greyscale: (
+  'black': hsl(240, 1, 1),
+  '1':     hsl(240, 4, 10),
+  '2':     hsl(240, 3, 24),
+  '3':     hsl(240, 3, 30),
+  '4':     hsl(240, 2, 40),
+  '5':     hsl(240, 2, 50),
+  '6':     hsl(240, 2, 84),
+  '7':     hsl(240, 1, 92),
+  '8':     hsl(240, 1, 96),
+  'white': hsl(240, 0, 99)
+);</code></pre>
     </section>
   </article>
 </template>
 
 <script>
+import PageHeading from '~components/layout/pageHeading'
 import ColorSwatch from '~components/ColorSwatch'
 
 export default {
   components: {
     ColorSwatch,
+    PageHeading,
   },
 
   data () {
@@ -72,7 +91,11 @@ export default {
           'error',
           'error-alt',
           'error-alt-2'
-        ]
+        ],
+      ],
+
+      greyscale: [
+          'black', '1', '2', '3', '4', '5', '6', '7', '8', 'white'
       ]
     }
   }

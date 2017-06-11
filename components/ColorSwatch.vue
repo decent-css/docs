@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="p-2 cbgg-7 rounded b mb-2">
+    <div class="p-2 cbgg-8 rounded b mb-2">
       <div class="pb-2"><code class="tn-1">.{{ colorBgClass }}</code></div>
       <div class="wp-100 p-5 rounded" :class="[colorBgClass]"></div>
     </div>
 
-    <div class="p-2 cbgg-7 b">
+    <div class="p-2 cbgg-8 b">
       <div class="pb-1"><code class="tn-1">.{{ colorTextClass }}</code></div>
       <div class="flex pt-2 wp-100">
         <span class="t-4 tw-semibold" :class="[colorTextClass]">Aa</span>
@@ -22,7 +22,7 @@ export default {
       default: null,
       type: String
     },
-    greyscale: {
+    grey: {
       default: null,
       type: String
     }
@@ -33,7 +33,7 @@ export default {
       if (this.color) {
         return 'cbg-' + this.color
       } else {
-        return 'cbgg-' + this.greyscale
+        return 'cbgg-' + this.grey
       }
     },
 
@@ -41,7 +41,7 @@ export default {
       if (this.color) {
         return 'c-' + this.color
       } else {
-        return 'cg-' + this.greyscale
+        return 'cg-' + this.grey
       }
     }
   }

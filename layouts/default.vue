@@ -1,5 +1,5 @@
 <template>
-  <div class="cbgg-8">
+  <div>
     <main-nav />
     <main>
       <wrapper>

@@ -2,20 +2,20 @@
   <article>
     <section class="maxw-12 mb-6">
       <h1 class="t-6 tw-semibold mt-5 mb-3">Grid</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
+      <p>This grid does <em>not</em> float by default!</p>
     </section>
 
     <section class="mb-6">
-      <div class="ta-center mxn-2">
+      <div class="ta-center ">
         <div class="clearfix mln-2 mb-2">
           <div class="col-6 pl-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.col-6</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="col-6 pl-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.col-6</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
@@ -24,19 +24,19 @@
 
         <div class="clearfix mln-2 mbn-2">
           <div class="lg-col-4 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.lg-col-4</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="lg-col-4 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.lg-col-4</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="lg-col-4 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.lg-col-4</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
@@ -45,37 +45,37 @@
 
         <div class="clearfix mln-2 mbn-2">
           <div class="md-col-2 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.md-col-2</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="md-col-2 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.md-col-2</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="md-col-2 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.md-col-2</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="md-col-2 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.md-col-2</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="md-col-2 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.md-col-2</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>
           </div>
           <div class="md-col-2 pl-2 mb-2">
-            <div class="cbgg-7 b p-2">
+            <div class="cbgg-8 b p-2">
               <pre class="pb-2"><code class="tn-1">.md-col-2</code></pre>
               <div class="cbg-primary h-4"></div>
             </div>

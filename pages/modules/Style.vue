@@ -6,26 +6,33 @@
     </section>
 
     <h2 class="t-3 tw-semibold mb-3">Shadow</h2>
-    <section class="p-2 cbgg-7 b mb-4 mxn-2">
-      <div class="flex mln-2">
-        <div class="p-4 ml-2 flex-grow cbgg-white shadow"></div>
-        <div class="p-4 ml-2 flex-grow cbgg-white shadow-diffused"></div>
-      </div>
+
+    <section class="flex mln-2 mb-4">
+      <demo-block class="ml-2" class-name="shadow">
+        <div class="p-8 m-2 cbgg-white shadow"></div>
+      </demo-block>
+      <demo-block class="ml-2" class-name="shadow-diffused">
+        <div class="p-8 m-2 cbgg-white shadow-diffused"></div>
+      </demo-block>
     </section>
 
     <h2 class="t-3 tw-semibold mb-3">Border Radius</h2>
-    <section class="p-2 cbgg-7 b mxn-2">
-      <div class="flex mln-2">
-        <div class="w-5 h-5 ml-2 cbgg-3 rounded"></div>
-        <div class="w-5 h-5 ml-2 cbgg-3 rounded-more"></div>
-      </div>
+
+    <section class="flex mln-2 mb-4">
+      <demo-block class="ml-2" class-name="rounded">
+        <div class="w-9 h-9 cbg-primary rounded"></div>
+      </demo-block>
+      <demo-block class="ml-2" class-name="rounded-more">
+        <div class="w-9 h-9 cbg-primary rounded-more"></div>
+      </demo-block>
     </section>
 
 
     <section class="bt pt-6 mt-6">
       <h2 class="t-3 tw-semibold mb-4">Configuration</h2>
       <pre class="tn-1"><code>$border-radii: (
-  'default': 2px
+  'default': 2px,
+  'more':    4px
 );
 
 $shadows: (
@@ -35,3 +42,15 @@ $shadows: (
     </section>
   </article>
 </template>
+
+<script>
+import PageHeading from '~components/layout/PageHeading'
+import DemoBlock from '~components/layout/DemoBlock'
+
+export default {
+  components: {
+    PageHeading,
+    DemoBlock,
+  }
+}
+</script>

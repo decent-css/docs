@@ -1,21 +1,16 @@
 <template>
   <article>
-    <block>
-      <div slot="main" class="pt-8">
-        <h1 class="t-4 mb-1">Display</h1>
-        <p class="cg-3 antialiased">Display is...</p>
-      </div>
-    </block>
+    <page-heading title="Display">
+    </page-heading>
   </article>
 </template>
 
 <script>
-import Block from '~components/layout/Block'
+import PageHeading from '~components/layout/PageHeading'
 
 export default {
   components: {
-    Block,
+    PageHeading,
   }
 }
-
 </script>

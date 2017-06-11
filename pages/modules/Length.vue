@@ -6,16 +6,15 @@
     </section>
     <section>
       <h2 class="t-3 tw-semibold mb-3">Fixed Lengths</h2>
-
-      <div class="table b mb-4">
+      <div class="table b mb-4 wp-100">
         <div class="table-row">
-          <div class="table-cell cbgg-7 br bb pt-2 pb-1 pl-2 pr-4">
+          <div class="table-cell cbgg-8 br bb pt-2 pb-1 pl-2 pr-4">
             Identifier
           </div>
-          <div class="table-cell cbgg-7  br bb pt-2 pb-1 pl-2 pr-4">
+          <div class="table-cell cbgg-8  br bb pt-2 pb-1 pl-2 pr-4">
             Values
           </div>
-          <div class="table-cell cbgg-7 bb pt-2 pb-1 pl-2 pr-6">
+          <div class="table-cell cbgg-8 bb pt-2 pb-1 pl-2 pr-6">
             Description
           </div>
         </div>
@@ -39,8 +38,8 @@
         </div>
       </div>
 
-      <div class="o-auto mxn-2 mb-4">
-        <div v-for="step in scale" class="cbgg-7 p-2 flex items-center mb-2">
+      <div class="o-auto mb-4">
+        <div v-for="step in scale" class="cbgg-8 b p-2 flex items-center mb-2">
           <div class="h-3 w-6 pl-1 mr-2 flex items-center justify-start">
             <code class="tn-2">.w-{{ step }}</code>
           </div>
@@ -49,15 +48,15 @@
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Percent Lengths</h2>
-      <div class="table b mb-4">
+      <div class="table b wp-100 mb-4">
         <div class="table-row">
-          <div class="table-cell cbgg-7 br bb pt-2 pb-1 pl-2 pr-4">
+          <div class="table-cell cbgg-8 br bb pt-2 pb-1 pl-2 pr-4">
             Identifier
           </div>
-          <div class="table-cell cbgg-7  br bb pt-2 pb-1 pl-2 pr-4">
+          <div class="table-cell cbgg-8  br bb pt-2 pb-1 pl-2 pr-4">
             Values
           </div>
-          <div class="table-cell cbgg-7 bb pt-2 pb-1 pl-2 pr-6">
+          <div class="table-cell cbgg-8 bb pt-2 pb-1 pl-2 pr-6">
             Description
           </div>
         </div>
@@ -101,8 +100,8 @@
         </div>
       </div>
 
-      <div class="mxn-2">
-        <div v-for="step in percentageScale" class="cbgg-7 p-2 flex items-center mb-2">
+      <div class="">
+        <div v-for="step in percentageScale" class="cbgg-8 b p-2 flex items-center mb-2">
           <div class="h-3 w-6 pl-1 mr-2 flex items-center justify-start">
             <code class="tn-2">.wp-{{ step }}</code>
           </div>
