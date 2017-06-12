@@ -59,7 +59,7 @@ $greyscale: (
 </template>
 
 <script>
-import PageHeading from '~components/layout/pageHeading'
+import PageHeading from '~components/layout/PageHeading'
 import ColorSwatch from '~components/ColorSwatch'
 
 export default {
