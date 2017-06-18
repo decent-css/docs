@@ -28,7 +28,8 @@
   ),
   'secondary': (
     'default':  hsl(27, 100, 53),
-    'alt':      hsl(27, 100, 43)
+    'alt':      hsl(27, 90, 43)
+    'alt-2':    hsl(27, 80, 33)
   ),
   'success': (
     'default':  hsl(122, 90, 50),

@@ -18,16 +18,43 @@
     </section>
 
     <section class="mb-5">
+      <h2 class="t-3 tw-semibold mb-3">Getting Started</h2>
+      <div class="mb-4">
+        <h3 class="t-1 tw-semibold mb-2">Install Decent.</h3>
+        <div class="code-block">
+          <pre><code>$ npm install decent-scss</code></pre>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <h3 class="t-1 tw-semibold mb-2">Include Decent in your build.</h3>
+        <div class="code-block">
+          <pre><code>@import 'decent-scss/modules/all';</code></pre>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <div class="col-7 mb-3">
+          <h3 class="t-1 tw-semibold mb-2">Configure Decent to work with your design.</h3>
+          <p>Import a settings file above Decent in your build.</p>
+        </div>
+        <div class="code-block">
+          <pre><code>@import 'settings'; <br><span class="cg-4 antialiased">@import 'decent-scss/modules/all';</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
       <h2 class="t-3 tw-semibold mb-3">How it Works</h2>
       <p>Control over classnames, increments, and values.</p>
     </section>
 
     <section class="mb-5">
-      <h2 class="t-3 tw-semibold mb-3">Getting Started</h2>
+      <h2 class="t-3 tw-semibold mb-3">Responsive</h2>
       <p>Control over classnames, increments, and values.</p>
     </section>
 
-    <section class="flex mln-3">
+    <!-- <section class="flex mln-3">
       <div class="p-3">
         <p class="t-3 tw-semibold">~16<span class="t-1">kb</span></p>
         <p>Minified and gzipped</p>
@@ -36,7 +63,7 @@
         <p class="t-3 tw-semibold">Configurable</span></p>
         <p>Minified and gzipped</p>
       </div>
-    </section>
+    </section> -->
 
     <!--
       - Makes designing in the browser possible.

@@ -26,28 +26,41 @@
       <div class="mb-4">
         <div class="flex mln-1">
           <div class="p-2 cbgg-8 b mx-1">
-            <p class="tw-bold">Bold</p>
+            <div class="pb-2"><code class="tn-1">.tw-bold</code></div>
+            <p class="t-1 tw-bold">Bold</p>
           </div>
           <div class="p-2 cbgg-8 b mx-1">
-            <p class="tw-semibold">Semibold</p>
+            <div class="pb-2"><code class="tn-1">.tw-semibold</code></div>
+            <p class="t-1 tw-semibold">Semibold</p>
           </div>
           <div class="p-2 cbgg-8 b mx-1">
-            <p class="tw-regular">Regular</p>
+            <div class="pb-2"><code class="tn-1">.tw-regular</code></div>
+            <p class="t-1 tw-regular">Regular</p>
           </div>
         </div>
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Alignment</h2>
-      <div class="cbgg-8 b p-2 mb-4">
-        <div class="cbgg-white b p-2 mb-1 ta-left">
-          <p>Left</p>
+      <div class="flex mln-2">
+        <div class="flex-grow cbgg-8 b p-2 ml-2 mb-4">
+          <div class="pb-2 ta-center"><code class="tn-1">.ta-left</code></div>
+          <p class="ta-left t-1">Left</p>
         </div>
-        <div class="cbgg-white b p-2 mb-1 ta-center">
+        <div class="flex-grow cbgg-8 b p-2 ml-2 mb-4">
+          <div class="pb-2 ta-center"><code class="tn-1">.ta-center</code></div>
+          <p class="t-1 ta-center">Center</p>
+        </div>
+        <div class="flex-grow cbgg-8 b p-2 ml-2 mb-4">
+          <div class="pb-2 ta-center"><code class="tn-1">.ta-right</code></div>
+          <p class="t-1 ta-right">Right</p>
+        </div>
+      </div>
+        <!-- <div class="flex-grow cbgg-white b p-2 mx-1 ta-center">
           <p>Center</p>
         </div>
-        <div class="cbgg-white b p-2 mb-1 ta-right">
+        <div class="flex-grow cbgg-white b p-2 mx-1 ta-right">
           <p>Right</p>
-        </div>
+        </div> -->
       </div>
 
       <h2 class="t-3 tw-semibold mb-3">Style</h2>

@@ -2,10 +2,16 @@
   <div>
     <header class="fixed wp-100 cbgg-white z-4 bb">
       <div class="bb">
-        <div class="container h-7 py-3 px-3 sm-px-5 lg-px-8">
-          <nuxt-link to="/" class="block hp-100">
-            <img src="~assets/images/decent-logo.svg" class="hp-100" />
-          </nuxt-link>
+        <div class="flex container items-baseline">
+          <div class="flex-grow h-7 py-3 px-3 sm-px-5 lg-px-8">
+            <nuxt-link to="/" class="block hp-100">
+              <img src="~assets/images/decent-logo.svg" class="hp-100" />
+            </nuxt-link>
+          </div>
+          <nav class="mrn-2">
+            <a href="https://github.com/decent-css/decent" class="p-2 tn-1">Github</a>
+            <a href="https://www.npmjs.com/package/decent-scss" class="p-2 tn-1">NPM</a>
+          </nav>
         </div>
       </div>
       <div class="container flex items-center h-6 py-2 cbgg-white o-auto">
@@ -21,7 +27,6 @@
           <main-nav-link name="Spacing" />
           <main-nav-link name="Style" />
           <main-nav-link name="Typography" />
-
           <!-- <nuxt-link to="/modules/interaction" class="p-2 c-primary-alt-2">Interaction</nuxt-link> -->
           <!-- <nuxt-link to="/modules/table" class="p-2 c-primary-alt-2">Table</nuxt-link> -->
         </nav>
