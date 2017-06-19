@@ -6,7 +6,47 @@
     </section>
 
     <section class="mb-6">
-      <div class="ta-center ">
+      <div class="table b mb-4 wp-100">
+        <div class="table-row">
+          <div class="table-cell cbgg-8 br bb pt-2 pb-1 pl-2 pr-4">
+            Identifier
+          </div>
+          <div class="table-cell cbgg-8  br bb pt-2 pb-1 pl-2 pr-4">
+            Values
+          </div>
+          <div class="table-cell cbgg-8 bb pt-2 pb-1 pl-2 pr-6">
+            Description
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell bb br p-2">
+            <code class="code">container</code>
+          </div>
+          <div class="table-cell bb br p-2">
+            -
+          </div>
+          <div class="table-cell bb tn-1 p-2">Sets the max width of the grid.</div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell bb br p-2">
+            <code class="code">col</code>
+          </div>
+          <div class="table-cell bb br p-2">
+            <code class="code">1</code> - <code class="code">12</code></code>
+          </div>
+          <div class="table-cell bb tn-1 p-2">Sets the width of an element based on the number of columns.</div>
+        </div>
+        <div class="table-row">
+          <div class="table-cell br p-2">
+            <code class="code">push</code>
+          </div>
+          <div class="table-cell br p-2">
+            <code class="code">1</code> - <code class="code">12</code></code>
+          </div>
+          <div class="table-cell tn-1 p-2">Pushes an element by a number of columns.</div>
+        </div>
+      </div>
+      <div class="ta-center">
         <div class="clearfix mln-2 mb-2">
           <div class="col-6 pl-2">
             <div class="cbgg-8 b p-2">
