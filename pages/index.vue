@@ -18,7 +18,7 @@
     </section>
 
     <section class="mb-5">
-      <h2 class="t-3 tw-semibold mb-3">Getting Started</h2>
+      <h2 class="t-4 tw-semibold mb-3">Getting Started</h2>
       <div class="mb-4">
         <h3 class="t-1 tw-semibold mb-2">Install Decent.</h3>
         <div class="code-block">
@@ -45,25 +45,33 @@
     </section>
 
     <section class="mb-5">
-      <h2 class="t-3 tw-semibold mb-3">How it Works</h2>
-      <p>Control over classnames, increments, and values.</p>
+      <h2 class="t-4 tw-semibold mb-3">How it Works</h2>
+      <div class="col-7">
+        <p class="mb-2">The only assumption Decent makes is that we can't assume anything. Everyone has different requirements and preferences, that's why we have opted to make our framework as flexible as possible – down to the classnames.</p>
+        <p class="mb-2">The goal of our defaults is to provide an example of how to configure your Decent – giving you a starting point to just start building. As your design evolves, you can change colors, typography scale, styles, and available spacing and length increments to work for you.</p>
+        <p class="mb-2">Functional CSS – f(css) – work especially well with component-based frameworks just as React and Vue. If you find yourself duplicated classes on an element, odds are that element should become a component in your application.</p>
+      </div>
     </section>
 
-    <section class="mb-5">
-      <h2 class="t-3 tw-semibold mb-3">Responsive</h2>
+    <!-- <section class="mb-5">
+      <h2 class="t-4 tw-semibold mb-3">Responsive</h2>
       <p>Control over classnames, increments, and values.</p>
-    </section>
+    </section> -->
 
     <!-- <section class="flex mln-3">
       <div class="p-3">
         <p class="t-3 tw-semibold">~16<span class="t-1">kb</span></p>
-        <p>Minified and gzipped</p>
+        <p>Minified and gzipped.</p>
       </div>
       <div class="p-3">
         <p class="t-3 tw-semibold">Configurable</span></p>
-        <p>Minified and gzipped</p>
+        <p>Down to the class name.</p>
       </div>
-    </section> -->
+      <div class="p-3">
+        <p class="t-3 tw-semibold">Tested</span></p>
+        <p></p>
+      </div> -->
+    </section>
 
     <!--
       - Makes designing in the browser possible.
