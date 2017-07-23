@@ -1,10 +1,5 @@
 <template>
   <article>
-    <section class="maxw-12 mb-6">
-      <h1 class="t-6 tw-semibold mt-5 mb-3">Spacing</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, tellus eu rutrum gravida, ante tortor vulputate est, id mollis ligula felis vel elit. Nam condimentum quis est ut faucibus.</p>
-    </section>
-
     <h2 class="t-3 tw-semibold mb-3">Padding</h2>
     <section class="mb-4 ">
       <div v-for="step in scale" class="cbgg-8 b p-2 flex items-center mb-2">

@@ -1,7 +1,5 @@
 <template>
   <article>
-    <page-heading title="Ratio"></page-heading>
-
     <section class="mb-4">
       <div class="flex items-start mln-2">
         <demo-block class="ml-2" class-name="ratio-1_2">

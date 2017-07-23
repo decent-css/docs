@@ -1,17 +1,13 @@
 <template>
   <article>
-    <page-heading title="Color">
-      Colors are split into two categories – <em>colorsets</em> and <em>greyscale</em>
-    </page-heading>
-
     <section>
-      <div v-for="colorGroup in colorGroups" class="flex flex-wrap mln-2 mb-5">
-        <div v-for="color in colorGroup" class="w-10 md-col-3 pl-2">
+      <div v-for="colorGroup in colorGroups" v-bind:key="colorGroup" class="flex flex-wrap mln-2 mb-5">
+        <div v-for="color in colorGroup" v-bind:key="color" class="w-10 md-col-3 pl-2">
           <color-swatch :color="color" class="mb-2"/>
         </div>
       </div>
       <div class="flex flex-wrap mln-2 mb-5">
-        <div v-for="grey in greyscale" class="w-10 md-col-3 pl-2">
+        <div v-for="grey in greyscale" v-bind:key="grey" class="w-10 md-col-3 pl-2">
           <color-swatch :grey="grey" class="mb-2"/>
         </div>
       </div>
@@ -60,13 +56,11 @@ $greyscale: (
 </template>
 
 <script>
-import PageHeading from '~components/layout/PageHeading'
 import ColorSwatch from '~components/ColorSwatch'
 
 export default {
   components: {
     ColorSwatch,
-    PageHeading,
   },
 
   data () {

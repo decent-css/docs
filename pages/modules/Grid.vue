@@ -1,10 +1,5 @@
 <template>
   <article>
-    <section class="maxw-12 mb-6">
-      <h1 class="t-6 tw-semibold mt-5 mb-3">Grid</h1>
-      <p>This grid does <em>not</em> float by default!</p>
-    </section>
-
     <section class="mb-6">
       <div class="table b mb-4 wp-100">
         <div class="table-row">

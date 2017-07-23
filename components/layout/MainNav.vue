@@ -1,9 +1,9 @@
 <template>
   <div>
     <header class="fixed wp-100 cbgg-white z-4 bb">
-      <div class="bb">
+      <div class="bb px-4">
         <div class="flex container items-baseline">
-          <div class="flex-grow h-7 py-3 px-3 sm-px-5 lg-px-8">
+          <div class="flex-grow h-7 py-3">
             <nuxt-link to="/" class="block hp-100">
               <img src="~assets/images/decent-logo.svg" class="hp-100" />
             </nuxt-link>

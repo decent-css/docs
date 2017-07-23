@@ -1,8 +1,5 @@
 <template>
   <article>
-    <page-heading title="Flexbox">
-      <p>Flexbox is a great companion to f(css).</p>
-    </page-heading>
     <section class="mb-6">
       <h2 class="t-3 tw-semibold mb-3">Container</h2>
       <div class="ta-center">

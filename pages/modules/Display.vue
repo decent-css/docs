@@ -1,8 +1,5 @@
 <template>
   <article>
-    <page-heading title="Display">
-    </page-heading>
-
     <section>
       <h2 class="t-3 tw-semibold mb-3">Display</h2>
       <div class="table b mb-4 wp-100">

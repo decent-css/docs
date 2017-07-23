@@ -1,7 +1,5 @@
 <template>
   <article>
-    <page-heading title="Position" />
-
     <section>
       <h2 class="t-3 tw-semibold mb-3">Relative, Absolute, Fixed</h2>
     </section>
